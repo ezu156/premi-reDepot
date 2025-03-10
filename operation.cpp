@@ -29,3 +29,18 @@ int division (int a, int b)
 	resultat = a / b;
 	return resultat;
 }
+int factoriel(int nb)
+{
+	if (nb==0)
+	{
+		return 1;
+	}
+		
+	else 
+	{
+		return nb*factorielle(nb-1)
+	}
+	
+}
+
+	
